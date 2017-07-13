@@ -2,7 +2,7 @@
 
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
@@ -13,4 +13,15 @@
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+google-maps-width {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps-width iframe {
+    width: 100% !important;
 }
